@@ -161,7 +161,7 @@ class Trainer:
             linf_trials.append(linf)
 
             # Final save
-            torch.save(model.state_dict(), f"{self.cfg.make_method_name()}_{trial}.pt")
+            torch.save(model.state_dict(), os.path.join(self.cfg.out_dir, f"{self.cfg.make_method_name()}_{trial}.pt"))
 
         print('mean rel L_2: %2.3e' % np.mean(l2_trials))
         print('std  rel L_2: %2.3e' % np.std(l2_trials))
