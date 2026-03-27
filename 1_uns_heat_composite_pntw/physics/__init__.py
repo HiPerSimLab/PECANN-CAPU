@@ -1,0 +1,1 @@
+from .residuals import PDE_opt, boundary_opt, initial_opt, u_exact, flux_opt, q_exact

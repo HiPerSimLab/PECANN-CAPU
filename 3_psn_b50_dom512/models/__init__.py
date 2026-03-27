@@ -1,0 +1,1 @@
+from .fc_net import Spatial1DNet, FC_Net, xavier_init
