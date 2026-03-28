@@ -1,8 +1,8 @@
 # PECANN-CAPU
 
-**Physics-Enforced Constraint Augmented Neural Network — Constrained Augmented Physics-informed Unsupervised Learning**
+**Physics and Equality-Constrained Artificial Neural Networks — Conditionally Adaptive Penalty Update**
 
-PECANN-CAPU is a generic Augmented Lagrangian Method (ALM) framework for solving partial differential equations (PDEs) with neural networks. It enforces PDE constraints, boundary conditions, and initial conditions through adaptive dual variables (Lagrange multipliers and penalty parameters), eliminating the need for manual loss weight tuning common in conventional Physics-Informed Neural Networks (PINNs).
+PECANN-CAPU is a generic Augmented Lagrangian Method (ALM) algorithm for solving partial differential equations (PDEs) with neural networks. It enforces PDE constraints, boundary conditions, and initial conditions through adaptive dual variables (Lagrange multipliers and penalty parameters), eliminating the need for manual loss weight tuning common in conventional Physics-Informed Neural Networks (PINNs).
 
 ## Key Features
 
