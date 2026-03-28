@@ -21,7 +21,7 @@ The framework achieves competitive accuracy across all cases compared with estab
 
 ## Key Features
 
-- **Augmented Lagrangian Method** — automatically balances PDE residuals and boundary/initial condition losses via adaptive Lagrange multipliers (Λ) and penalty parameters (μ)
+- **Conditionally Adaptive Augmented Lagrangian Method (CA-ALM)** — automatically balances PDE losses and boundary/initial condition constraints via adaptive Lagrange multipliers (Λ) and penalty parameters (μ)
 - **Optimizer agnostic** — supports both Adam and L-BFGS, with optional learning rate scheduling for Adam
 - **Modular design** — the core `PECANNTrainer` and `PECANNState` classes are problem-independent; users only need to supply an evaluation function that returns the objective and constraint residuals
 - **Lightweight** — minimal dependencies (PyTorch only)
