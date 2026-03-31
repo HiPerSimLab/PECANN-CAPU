@@ -1,0 +1,4 @@
+/bgfs/isenocak/qih56/capu/github_repo/1_uns_heat_composite_aggg/viz/viz.py:208: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.tight_layout()
+/bgfs/isenocak/qih56/capu/github_repo/1_uns_heat_composite_aggg/viz/viz.py:210: UserWarning: Creating legend with loc="best" can be slow with large amounts of data.
+  plt.savefig(f'pic/{methodname}_{trial}_lambda_mu.png', dpi=300)
