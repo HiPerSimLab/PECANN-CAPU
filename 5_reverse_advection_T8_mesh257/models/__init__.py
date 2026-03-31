@@ -1,1 +1,0 @@
-from .fc_net import SpatialNet, Sigmoid_FC_Net, xavier_init
