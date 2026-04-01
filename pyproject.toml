@@ -17,8 +17,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/QifengHu/PECANN-CAPU"
-Repository = "https://github.com/QifengHu/PECANN-CAPU"
+Homepage = "https://github.com/HiPerSimLab/PECANN-CAPU"
+Repository = "https://github.com/HiPerSimLab/PECANN-CAPU"
 
 [tool.setuptools.packages.find]
 include = ["pecann_capu*"]
