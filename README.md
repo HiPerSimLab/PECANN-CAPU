@@ -1,6 +1,7 @@
 ## Physics and Equality Constrained Artificial Neural Networks with the Conditionally Adaptive Penalty Update Algorithm (PECANN-CAPU)
 <!-- ![plot](./images/gif_pecann_scalar_advection_vortex.gif) -->
 <img src="./images/gif_pecann_scalar_advection_vortex.gif" alt="Alt text" autoplay loop>
+
 ### Summary:
 This version introduces several key advances to the original Physics and Equality Constrained Artificial Neural Networks [(PECANN)](https://doi.org/10.1016/j.jcp.2022.111301) framework, substantially improving its capacity and efficiency to solve challenging partial differential equations (PDEs):
 1. **Generalized ALM** — extends the Augmented Lagrangian Method (ALM) to support multiple, independent penalty parameters for enforcing heterogeneous constraints.
