@@ -1,8 +1,15 @@
-__pycache__/
-.ipynb_checkpoints/
 *.egg-info/
-*.pyc
-*/*/__pycache__/
-*/*/main.ipynb
-*/*/logs/
 5_1_repeat_5/
+
+*/__pycache__/
+*/*/__pycache__/
+*/*/.ipynb_checkpoints/
+
+# Ignore logs and pics for all cases except the demo
+forward/*/logs/*
+inverse/*/logs/*
+
+# But keep the demo case outputs
+!forward/1d_poisson_b50_dom512/logs/*
+
+
