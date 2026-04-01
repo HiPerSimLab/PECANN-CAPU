@@ -31,7 +31,7 @@ pip install git+https://github.com/HiPerSimLab/PECANN-CAPU.git
 
 ```bash
 git clone https://github.com/HiPerSimLab/PECANN-CAPU.git
-cd pecann-capu
+cd PECANN-CAPU
 pip install -e .
 ```
 
