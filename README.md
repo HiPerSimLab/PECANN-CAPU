@@ -1,7 +1,21 @@
 ## Physics and Equality Constrained Artificial Neural Networks with the Conditionally Adaptive Penalty Update Algorithm (PECANN-CAPU)
 ![plot](./images/gif_pecann_scalar_advection_vortex.gif)
 ### Summary:
-This version introduces several key advances to the original Physics and Equality Constrained Artificial Neural Networks [(PECANN)](https://doi.org/10.1016/j.jcp.2022.111301) framework, substantially improving its capacity and efficiency to solve challenging partial differential equations (PDEs). First, we generalize the Augmented Lagrangian Method (ALM) to support multiple, independent penalty parameters for enforcing heterogeneous constraints. Second, we introduce a constraint aggregation technique to address inefficiencies associated with point-wise enforcement of PDE constraints. Third, we incorporate a single Fourier feature mapping to capture highly oscillatory solutions with multi-scale features, where alternative physics-informed methods often require multiple mappings or costlier architectures. Fourth, a novel time-windowing strategy enables seamless long-time evolution of transport equations without relying on discrete time models. Fifth, and critically, we propose a conditionally adaptive penalty update (CAPU) strategy for ALM that accelerates the growth of Lagrange multipliers for constraints with larger violations, while enabling coordinated updates of multiple penalty parameters. We demonstrate the effectiveness of PECANN-CAPU across diverse problems, including the transonic rarefaction problem, reversible scalar advection by a vortex, Helmholtz and Poisson's equations with high wavenumber solutions, and inverse heat source identification. The framework achieves competitive accuracy across all cases when compared with established methods and recent approaches based on Kolmogorov-Arnold networks. An important implication of our investigation is that pure regression is insufficient to evaluate network architecture in physics-informed learning. Collectively, these advances improve the robustness, computational efficiency, and applicability of PECANN to demanding problems in scientific computing.
+This version introduces several key advances to the original Physics and Equality Constrained Artificial Neural Networks [(PECANN)](https://doi.org/10.1016/j.jcp.2022.111301) framework, substantially improving its capacity and efficiency to solve challenging partial differential equations (PDEs):
+1. **Generalized ALM** — extends the Augmented Lagrangian Method (ALM) to support multiple, independent penalty parameters for enforcing heterogeneous constraints.
+2. **Constraint aggregation** — addresses inefficiencies associated with point-wise enforcement of PDE constraints.
+3. **Fourier feature mapping** — a single Fourier feature mapping captures highly oscillatory solutions with multi-scale features, where alternative physics-informed methods often require multiple mappings or costlier architectures.
+4. **Time-windowing** — enables seamless long-time evolution of transport equations without relying on discrete time models.
+5. **Conditionally adaptive penalty update (CAPU)** — accelerates the growth of Lagrange multipliers for constraints with larger violations, while enabling coordinated updates of multiple penalty parameters.
+
+We demonstrate the effectiveness of PECANN-CAPU across diverse problems, including:
+- Transonic rarefaction problem,
+- Reversible scalar advection by a vortex,
+- Helmholtz and Poisson's equations with high-wavenumber solutions,
+- Inverse heat source identification.
+The framework achieves competitive accuracy across all cases when compared with established methods and recent approaches based on Kolmogorov-Arnold networks. An important implication of our investigation is that pure regression is insufficient to evaluate network architecture in physics-informed learning. Collectively, these advances improve the robustness, computational efficiency, and applicability of PECANN to demanding problems in scientific computing.
+
+
 #### [Paper link] 
 
 ### Installation
@@ -9,13 +23,13 @@ This version introduces several key advances to the original Physics and Equalit
 #### From GitHub (recommended)
 
 ```bash
-pip install git+https://github.com/QifengHu/PECANN-CAPU.git
+pip install git+https://github.com/HiPerSimLab/PECANN-CAPU.git
 ```
 
 #### From source (editable / development mode)
 
 ```bash
-git clone https://github.com/QifengHu/PECANN-CAPU.git
+git clone https://github.com/HiPerSimLab/PECANN-CAPU.git
 cd pecann-capu
 pip install -e .
 ```
