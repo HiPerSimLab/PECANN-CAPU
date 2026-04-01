@@ -13,6 +13,7 @@ We demonstrate the effectiveness of PECANN-CAPU across diverse problems, includi
 - Reversible scalar advection by a vortex,
 - Helmholtz and Poisson's equations with high-wavenumber solutions,
 - Inverse heat source identification.
+
 The framework achieves competitive accuracy across all cases when compared with established methods and recent approaches based on Kolmogorov-Arnold networks. An important implication of our investigation is that pure regression is insufficient to evaluate network architecture in physics-informed learning. Collectively, these advances improve the robustness, computational efficiency, and applicability of PECANN to demanding problems in scientific computing.
 
 
