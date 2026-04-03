@@ -23,7 +23,7 @@ The framework achieves competitive accuracy across all cases when compared with 
 
 <img src="./images/4cases_comb.gif" alt="Alt text" autoplay loop>
 
-#### [Paper link] 
+#### [https://doi.org/10.1016/j.cma.2026.118953] 
 
 ### Installation
 
@@ -51,7 +51,17 @@ pip install -e .
 ## Citation
 Please cite us if you find our work useful for your research:
 ```
-
+@article{HU2026118953,
+title = {Conditionally adaptive augmented Lagrangian method for physics-informed learning of forward and inverse problems},
+journal = {Computer Methods in Applied Mechanics and Engineering},
+volume = {456},
+pages = {118953},
+year = {2026},
+issn = {0045-7825},
+doi = {https://doi.org/10.1016/j.cma.2026.118953},
+url = {https://www.sciencedirect.com/science/article/pii/S0045782526002264},
+author = {Qifeng Hu and Shamsulhaq Basir and Inanc Senocak},
+}
 ```
 ### Funding Acknowledgment
 This material is based upon work supported by the National Science Foundation under Grant No. 1953204 and in part by the University of Pittsburgh [Center for Research Computing​ and Data](https://crc.pitt.edu/), RRID:SCR_022735, through the resources provided. Specifically, this work used the H2P cluster, which is supported by NSF award number OAC-2117681.\
