@@ -1,8 +1,9 @@
 ## Physics and Equality Constrained Artificial Neural Networks with the Conditionally Adaptive Penalty Update Algorithm (PECANN-CAPU)
 <!-- ![plot](./images/gif_pecann_scalar_advection_vortex.gif) -->
 <!-- img src="./images/gif_pecann_scalar_advection_vortex.gif" alt="Alt text" autoplay loop>-->
-
-<img src="./images/reverse_advection_T8_mesh257_sig_nn6_40_1.gif" alt="Alt text" autoplay loop>
+<div align="center">
+  <img src="./images/reverse_advection_T8_mesh257_sig_nn6_40_1.gif" alt="Alt text" width="50%" autoplay loop>
+</div>
 
 ### Summary:
 This version introduces several key advances to the original Physics and Equality Constrained Artificial Neural Networks [(PECANN)](https://doi.org/10.1016/j.jcp.2022.111301) framework, substantially improving its capacity and efficiency to solve challenging partial differential equations (PDEs):
@@ -20,6 +21,7 @@ We demonstrate the effectiveness of PECANN-CAPU across diverse problems, includi
 
 The framework achieves competitive accuracy across all cases when compared with established methods and recent approaches based on Kolmogorov-Arnold networks. An important implication of our investigation is that pure regression is insufficient to evaluate network architecture in physics-informed learning. Collectively, these advances improve the robustness, computational efficiency, and applicability of PECANN to demanding problems in scientific computing.
 
+<img src="./images/4cases_comb.gif" alt="Alt text" autoplay loop>
 
 #### [Paper link] 
 
