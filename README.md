@@ -23,7 +23,7 @@ The framework achieves competitive accuracy across all cases when compared with 
 
 <img src="./images/4cases_comb.gif" alt="Alt text" autoplay loop>
 
-#### [https://doi.org/10.1016/j.cma.2026.118953] 
+#### Paper Link: [https://doi.org/10.1016/j.cma.2026.118953] 
 
 ### Installation
 
@@ -51,7 +51,7 @@ pip install -e .
 ## Citation
 Please cite us if you find our work useful for your research:
 ```
-@article{HU2026118953,
+@article{caalm2026hu,
 title = {Conditionally adaptive augmented Lagrangian method for physics-informed learning of forward and inverse problems},
 journal = {Computer Methods in Applied Mechanics and Engineering},
 volume = {456},
