@@ -6,7 +6,7 @@
 </div>
 
 ### Summary:
-This version introduces several key advances to the original Physics and Equality Constrained Artificial Neural Networks [(PECANN)](https://doi.org/10.1016/j.jcp.2022.111301) framework, substantially improving its capacity and efficiency to solve challenging partial differential equations (PDEs):
+This [version](https://doi.org/10.1016/j.cma.2026.118953) introduces several key advances to the original Physics and Equality Constrained Artificial Neural Networks [(PECANN)](https://doi.org/10.1016/j.jcp.2022.111301) framework, substantially improving its capacity and efficiency to solve challenging partial differential equations (PDEs):
 1. **Generalized ALM** — extends the Augmented Lagrangian Method (ALM) to support multiple, independent penalty parameters for enforcing heterogeneous constraints.
 2. **Constraint aggregation** — addresses inefficiencies associated with point-wise enforcement of PDE constraints.
 3. **Fourier feature mapping** — a single Fourier feature mapping captures highly oscillatory solutions with multi-scale features, where alternative physics-informed methods often require multiple mappings or costlier architectures.
